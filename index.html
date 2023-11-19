@@ -5,24 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>琳琳飯店</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Noto+Serif+JP:wght@600&family=Tsukimi+Rounded&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- header -->
-<header>
-
+    <div id="splash">
+        <div id="splash_logo"><img src="./assets/img/ロゴmain.png" alt="" class="fadeUp"></div><!--画像部分は適宜差し換えてください-->
+        <!--/splash--></div>
+        <div id="container">
+        <!--/container--></div>
+<header class="main_header">
+    <div class="main_shop">
+        <img src="./assets/img/ロゴmain.png" alt="icon" class="main_shop_icon">
+        <span class="main_shop_name">琳琳飯店</span>
+    </div>
+    <div class="header_nav">
+        <a href="#top" class="header_nav_text">Top</a>
+        <a href="#menu" class="header_nav_text">Menu</a>
+        <a href="#staff" class="header_nav_text">Staff</a>
+        <a href="#question" class="header_nav_text">Question</a>
+    </div>
 </header>
-    <!--hero-->
+<main>
+    <section>
+        <div class="main_hero">
+            <img src="./assets/img/hero.jpg" alt="hero_img" class="hero_img">
+            <p class="hero_text">琳琳飯店</p>
+        </div>
+    </section>
+    <section class="main_menu" id="menu">
+        <h1 class="main_menu_text">おすすめのメニュー</h1>
+        <h2 class="main_menu_subtext">Reccomend</h2>
+        <div class="main_menu_slide">
+            <ul class="slider">
+                <li class="slider-item slider-item01"></li>
+                <li class="slider-item slider-item02"></li>
+                <li class="slider-item slider-item03"></li>
+                <li class="slider-item slider-item04"></li>
+                <li class="slider-item slider-item05"></li>
+                <li class="slider-item slider-item06"></li>
+                <li class="slider-item slider-item07"></li>
+                <li class="slider-item slider-item08"></li>
+                </ul>
+        </div>
+        <div class="main_menu_detail">虾辣椒（エビチリ）・・・　1200円</div>
+        <div class="main_menu_detail">青椒肉絲・・・　　　　　　1500円</div>
+        <div class="main_menu_detail">麻婆豆腐・・・　　　　　　1300円</div>
+        <div class="main_menu_detail">回鍋肉・・・　　　　　　　1000円</div>
+        <div class="main_menu_detail">担々麺・・・　　　　　　　1000円</div>
+        <div class="main_menu_detail">油淋鶏・・・　　　　　　　1200円</div>
+        <div class="main_menu_detail">口水鶏（よだれ鶏）・・・　1200円</div>
+        <div class="main_menu_detail">五目炒飯・・・　　　　　　1000円</div>
+        <div class="main_menu_detail_b">※価格はすべて税込みです</div>
+    </section>
+    <section class="main_staff" id="staff">
+        <h1 class="main_staff_text">スタッフ紹介</h1>
+        <h2 class="main_staff_subtext">Staff Profile</h2>
+        <div class="staff_container">
+            <div class="grid_item_1">
+                <img src="./assets/img/myself.jpg" alt="" class="pic_rin">
+                <div><a href="./pages/rintaro/index.html" class="main_staff_name">宍倉琳太郎</a></div>
+            </div>
+            <div class="grid_item_2">
+                <img src="./assets/img/katsu.jpg" alt="" class="pic_katsu">
+                <div><a href="./pages/katsuyoshi/index.html" class="main_staff_name">金堂克芳</a></div>
+            </div>
+            <div class="grid_item_3">
+                <img src="./assets/img/shiho.jpg" alt="" class="pic_shiho">
+                <div><a href="./pages/shiho/index.html" class="main_staff_name">大渕紫帆</a></div>
+            </div>
+            <div class="grid_item_4">
+                <img src="./assets/img/syu.jpg" alt="" class="pic_shu">
+                <div><a href="" class="main_staff_name">比嘉珠佑</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="main_question" id="question">
+        <h1 class="main_question_text">よくあるご質問</h1>
+        <h2 class="main_question_subtext">Question</h2>
+        <ul class="accordion-area">
 
-    <!-- menu -->
+            <li><!--li ~ /li までが一つのアコーディオン-->
+            <section>
+            <h3 class="title">インターネットで予約はできますか？</h3>
+            <div class="box">
+            <p>お電話のみの受付とさせていただいております。</p>
+            </div>
+            </section>
+            </li>
+            
+            <li>
+            <section>
+            <h3 class="title">テイクアウトはできますか？</h3>
+            <div class="box">
+            <p>テイクアウト用のメニューをご用意しております。</p>
+            </div>
+            </section>
+            </li>
+            
+            <li>
+                <section>
+                <h3 class="title">喫煙できる席はありますか？</h3>
+                <div class="box">
+                <p>全席禁煙席とさせていただいております。</p>
+                </div>
+                </section>
+                </li>
+                <li>
+                    <section>
+                    <h3 class="title">お誕生日特典はありますか</h3>
+                    <div class="box">
+                    <p>事前にご連絡していただければ、お店から一部デザートをサービスさせていただきます。</p>
+                    </div>
+                    </section>
+                    </li>
+            </ul>
 
-    <!-- staff -->
+    </section>
+</main>
+<footer class="main_footer">
+    <div class="footer_logo_wrap">
+        <img src="./assets/img/ロゴmain.png" alt="" class="main_footer_img">
+    </div>
+    <h1 class="footer_maintext">琳琳飯店</h1>
+    <h2 class="footer_subtext">Rin-Rin Chinese Restaurant</h2>
+    <p class="footer_shop_detail">〒107-0062 東京都港区南青山3丁目15-9</p>
+    <p><br></p>
+    <p class="footer_shop_detail">	
+        月-木 11:30～15:00(LO 14時) 17:00～21:00(LO 20時)
+    </p>
+    <p class="footer_shop_detail">	
+        金 11:30～15:00(LO 14時) 17:00～22:00(LO 21時)
+    </p>
+    <p class="footer_shop_detail">	
+        土 11:30〜22:00(LO 21時)
+    </p>
+    <p class="footer_shop_detail">	
+        日･祝日 11:30〜21:00(LO 20時)</p>
+    </p>
+    <p class="footer_shop_detail">	
+        ※営業時間が変更となる場合がございますので最新情報を店舗へお問い合わせ下さい。
+</p>
+    </p>
 
-    <!-- free1 -->
+    <p><br></p>
+    <p class="footer_shop_detail">	
+        【アクセス】</p>
+    <p class="footer_shop_detail">	
+        東京メトロ「表参道」駅より徒歩約5分</p>
 
-    <!-- free2 -->
-
-    <!-- footer -->
-
+</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
