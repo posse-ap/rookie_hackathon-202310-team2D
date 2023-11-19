@@ -1,0 +1,208 @@
+/*header*/
+.header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #bd9a0a;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+}
+.logo{
+    margin-left: 35%;
+    height: 45px;
+}
+.header_nav{
+    margin-right: 5%;
+}
+.header_line{
+    height: 45px;
+}
+.header_instagram{
+    height: 45px;
+    margin-right: 0%;
+}
+.header_twitter{
+    height: 45px;
+}
+.body{
+    background-color: #bd9a0a;
+    z-index: 0;
+}
+
+
+/*main*/
+
+.self_introduction{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+    border-bottom: 1px solid white;
+}
+.my_image{
+    width: 61%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+.main{
+    padding-top: 80px;
+}
+.career{
+    margin-left: 15%;
+    text-align: center;
+    padding-right: 110px;
+    color: #ffff;
+
+}
+.university{
+    font-size: 20px;
+    margin-top: 25%;
+    color: white;
+}
+.post{
+    font-size: 20px;
+    margin-top: 5%;
+    color: #ffff;
+}
+.post_explanation{
+    font-size: 18px;
+    margin-top: 4%;
+    color: #ffff;
+}
+.salary{
+    font-size: 30px;
+    margin-top: 3%;
+    color: #ffff;
+}
+.hobby{
+    font-size: 24px;
+    margin-top: 4%;
+    color: #ffff;
+}
+.type_hobby{
+    font-size: 20px;
+    margin-top: 3%;
+    color: #ffff;
+}
+.main_logo{
+    margin-top: 10%;
+    width: 57%;
+    height: 25%;
+}
+#Uni {
+    cursor: pointer; 
+}
+
+#Post {
+    cursor: pointer; 
+}
+
+#postExplanation {
+    cursor: pointer; 
+}
+
+#Salary {
+    cursor: pointer; 
+}
+#Hobby {
+    cursor: pointer; 
+}
+#typeHobby {
+    cursor: pointer; 
+}
+
+.member_introduction{
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+    width: 18%;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+}
+.member_image{
+    display: flex;
+    padding: 4%;
+    gap: 8%;
+}
+.rin_image {
+    border-radius: 17%;
+    margin-bottom: 0%;
+
+}
+.shiho_image{
+    border-radius: 17%;
+    height: 77%;
+    align-items: center;
+    margin-bottom: 0%;
+}
+.shu_image{
+    border-radius: 17%;
+    height: 77%;
+    width: 100%;
+    margin-bottom: 0%;
+}
+.rin{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.shiho{
+    text-align: center;
+    margin-left: 19%;
+    margin-right: 16%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.shu{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.name{
+    font-weight: 700;
+    font-size: 25px;
+}
+.comment{
+    font-weight: 400;
+    font-size: 25px;
+}
+/*footer*/
+.footer{
+    border-top: 1px solid #ffffff;
+    background-color: black;
+    z-index: 5;
+}
+
+.form-text{
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+.my_image{
+    display: none;
+}
+.career{
+    margin-left: 63px;
+}
+.member_introduction{
+    width: 43%;
+}
+.name{
+    font-size: 12px;
+}
+.comment{
+    font-size: 8px;
+}
+}
+
+
+
+
+
+
