@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div>
+            <a href="">
+                <img class="logo" src="./img/琳琳飯店黒.png" alt="琳琳飯店">
+            </a>
+        </div>
+        <ul class="header_nav">
+            <a href="https://line.me/ti/p/Su-QrV--e4">
+                <img class="header_line" src="./img/ライン.svg" alt="ライン">
+            </a>
+            <a href="https://instagram.com/katsuyoshi0520?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr">
+                <img class="header_instagram" src="./img/インスタ.jpg" alt="インスタグラム">
+            </a>
+            <a href="https://x.com/kk07190303?s=11">
+                <img class="header_twitter" src="./img/ツイッター.jpg" alt="ツイッター">
+            </a>
+        </ul>
+    </header>
+    <main class="main">
+        <section class="self_introduction">
+            <div class="career">
+                <p class="university" id="Uni">オックスフォード大学</p>
+                <p class="post" id="Post">残飯処理班</p>
+                <p class="post_explanation" id="postExplanation">他の人が残した食べ物を食べるお仕事です。</p>
+                <p class="salary" id="Salary">時給１万円。</p>
+                <p class="hobby" id="Hobby">好きな趣味</p>
+                <p class="type_hobby" id="typeHobby">スポーツ,漫画</p>
+                <img class="main_logo" src="./img/琳琳飯店.png" alt="">
+            </div>
+            <div>
+                <img class="my_image" src="./img/katsuyoshi.jpg" alt="">
+            </div>
+            <div><img class="my_image" src="./img/katsuyoshi.jpg" alt=""></div>
+        </section>
+        <section class="">
+            <div class="main_member">
+                <p class="member_introduction">メンバー紹介</p>
+            </div>
+            <div class="member_image">
+                <div class="rin">
+                    <img class="rin_image" src="./img/rinrin改.jpg" alt="">
+                    <p class="name">穴倉 琳太郎</p>
+                    <p class="comment">オレは写真家だ</p>
+                </div>
+                <div class="shiho">
+                    <img class="shiho_image" src="./img/shiho改.jpg" alt="">
+                    <p class="name">大渕 紫帆</p>
+                    <p class="comment">私は宇宙人だ</p>
+                </div>
+                <div class="shu">
+                    <img class="shu_image" src="./img/shu改.jpg" alt="">
+                    <p class="name">比嘉 殊佑</p>
+                    <p class="comment">音楽が好き</p>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <form class="form-text" id="contactForm">
+            <label for="name">名前：</label>
+            <input type="text" id="name" name="name" required><br>
+        
+            <label for="email">メールアドレス：</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="message">メッセージ：</label>
+            <textarea id="message" name="message" required></textarea><br>
+        
+            <input type="submit" value="送信">
+        </form>
+        <div id="result"></div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
